@@ -1,0 +1,7 @@
+path: ../datasets
+train: coupling/training
+val: coupling/validation
+test: coupling/testing
+
+names:
+  0: joint
