@@ -2,7 +2,8 @@
 # Training cmds:
 1) git clone https://github.com/ultralytics/yolov5.git
 2) cd yolov5
-3) python train.py --img 1280 --epochs 80 --batch 8 --data ../dataset.yaml --weights yolov5m.pt --device 0
+3) pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+4) python train.py --img 1280 --epochs 80 --batch 8 --data ../dataset.yaml --weights yolov5m.pt --device 0
 
 
 # Running find_couplings.py
